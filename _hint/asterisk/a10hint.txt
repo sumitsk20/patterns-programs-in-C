@@ -1,0 +1,8 @@
+****** HINT FILE FOR a10 ******
+
+> Run an outer loop for the count of row.
+> Run an inner loop for the count of column.
+> Figure out combination of row & column where * is to be printed. (look code for better understanding)
+> Use if-else condition.
+
+NOTE: You can also try other approach than this.

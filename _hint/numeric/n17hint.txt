@@ -1,0 +1,9 @@
+****** HINT FILE FOR n17 ******
+
+> Run an outer loop for the count of row from 1 to n.
+> Run an inner loop for count of column from n to 1.
+> Use if else to print * & digits.
+
+ (look code for better understanding)
+
+NOTE: You can also try other approach than this.

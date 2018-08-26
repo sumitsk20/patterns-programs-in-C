@@ -1,0 +1,11 @@
+****** HINT FILE FOR n14 ******
+
+> Run an outer loop for count of row from 1 to one less than twice of number of row.
+> Initialize a counter to n.
+> Run an inner loop for count of column from 1 to 1 less than twice of number of column.
+> Figure out combination of row and column.
+> Print the counter Using if else ladder.
+
+ (look code for better understanding)
+
+NOTE: You can also try other approach than this.

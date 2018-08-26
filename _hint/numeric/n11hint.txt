@@ -1,0 +1,14 @@
+****** HINT FILE FOR n11 ******
+
+> Initialize a counter
+
+> Run an outer loop for the count of row from 1 to n.
+> Run an inner loopdor count of column from 1 to n.
+> Use if else to print ' ' & count at appropriate place.
+> Increment counter till count of row <= number of row 
+	else
+  Decrement counter.
+ 
+ (look code for better understanding)
+
+NOTE: You can also try other approach than this.

@@ -1,0 +1,18 @@
+****** HINT FILE FOR n16 ******
+
+> Divide the pattern in two part UPPER & LOWER.
+> Run an outer loop for the count of row from 1 to n.
+
+## FOR UPPER PART
+
+> Run an inner loop for column from 1 to count of row.
+> Use if else to print digit with '*' & digit without '*'.
+
+## FOR LOWER PART
+
+> Run an inner loop for column from n to 1.
+> Use if else to print digit with '*' & digit without '*'.
+
+ (look code for better understanding)
+
+NOTE: You can also try other approach than this.

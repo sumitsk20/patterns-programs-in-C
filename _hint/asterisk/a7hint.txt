@@ -1,0 +1,13 @@
+****** HINT FILE FOR a7 ******
+
+> Run an outer loop for the count of row.
+> Run an inner loop for the count of column.
+> Figure out combination of row & column where * is to be printed. (look code for better understanding)
+   -Divide the pattern in 4 parts.
+> Use if-else condition. 
+   - 1st condition for printing the top line.
+   - 2nd condition for printing the sliding line.
+   - 3rd condition for printing the edge line.
+   - 4rth condition for printing the lower sliding line.
+
+NOTE: You can also try other approach than this.

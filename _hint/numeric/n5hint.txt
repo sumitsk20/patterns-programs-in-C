@@ -1,0 +1,9 @@
+****** HINT FILE FOR n4 ******
+
+## TRY TO FIGURE OUT COMBINATION OF ROW & COLUMN.
+
+> Run an outer loop for the count of row from 1 to n.
+> Run an internal loop for count of column from 1 to count of row.
+> Print count of row * count of column.(look code for better understanding) 
+
+NOTE: You can also try other approach than this.

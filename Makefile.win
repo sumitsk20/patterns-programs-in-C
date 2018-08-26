@@ -1,0 +1,181 @@
+# Project: Project1
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = heart.o main.o menu_option.o options.o _dynamic_source_file/_alpha/d_al1.o _dynamic_source_file/_alpha/d_al2.o _dynamic_source_file/_alpha/d_al3.o _dynamic_source_file/_alpha/d_al4.o _dynamic_source_file/_alpha/d_al5.o _dynamic_source_file/_alpha/d_al6.o _dynamic_source_file/_alpha/d_al7.o _dynamic_source_file/_alpha/d_al8.o _dynamic_source_file/_alpha/d_al9.o _dynamic_source_file/_alpha/d_al10.o _dynamic_source_file/_asterisk/d_a1.o _dynamic_source_file/_asterisk/d_a2.o _dynamic_source_file/_asterisk/d_a3.o _dynamic_source_file/_asterisk/d_a4.o _dynamic_source_file/_asterisk/d_a5.o _dynamic_source_file/_asterisk/d_a6.o _dynamic_source_file/_asterisk/d_a7.o _dynamic_source_file/_asterisk/d_a8.o _dynamic_source_file/_asterisk/d_a9.o _dynamic_source_file/_asterisk/d_a10.o _dynamic_source_file/_asterisk/d_a11.o _dynamic_source_file/_asterisk/d_a12.o _dynamic_source_file/_asterisk/d_a13.o _dynamic_source_file/_asterisk/d_a14.o _dynamic_source_file/_numeric/d_n1.o _dynamic_source_file/_numeric/d_n2.o _dynamic_source_file/_numeric/d_n3.o _dynamic_source_file/_numeric/d_n4.o _dynamic_source_file/_numeric/d_n5.o _dynamic_source_file/_numeric/d_n6.o _dynamic_source_file/_numeric/d_n7.o _dynamic_source_file/_numeric/d_n8.o _dynamic_source_file/_numeric/d_n9.o _dynamic_source_file/_numeric/d_n10.o _dynamic_source_file/_numeric/d_n11.o _dynamic_source_file/_numeric/d_n12.o _dynamic_source_file/_numeric/d_n13.o _dynamic_source_file/_numeric/d_n14.o _dynamic_source_file/_numeric/d_n15.o _dynamic_source_file/_numeric/d_n16.o _dynamic_source_file/_numeric/d_n17.o _dynamic_source_file/_numeric/d_n18.o _dynamic_source_file/_numeric/d_n19.o _dynamic_source_file/_numeric/d_n20.o _dynamic_source_file/_numeric/d_n21.o _pattern/alpha.o _pattern/asterisk.o _pattern/numeric.o
+LINKOBJ  = heart.o main.o menu_option.o options.o _dynamic_source_file/_alpha/d_al1.o _dynamic_source_file/_alpha/d_al2.o _dynamic_source_file/_alpha/d_al3.o _dynamic_source_file/_alpha/d_al4.o _dynamic_source_file/_alpha/d_al5.o _dynamic_source_file/_alpha/d_al6.o _dynamic_source_file/_alpha/d_al7.o _dynamic_source_file/_alpha/d_al8.o _dynamic_source_file/_alpha/d_al9.o _dynamic_source_file/_alpha/d_al10.o _dynamic_source_file/_asterisk/d_a1.o _dynamic_source_file/_asterisk/d_a2.o _dynamic_source_file/_asterisk/d_a3.o _dynamic_source_file/_asterisk/d_a4.o _dynamic_source_file/_asterisk/d_a5.o _dynamic_source_file/_asterisk/d_a6.o _dynamic_source_file/_asterisk/d_a7.o _dynamic_source_file/_asterisk/d_a8.o _dynamic_source_file/_asterisk/d_a9.o _dynamic_source_file/_asterisk/d_a10.o _dynamic_source_file/_asterisk/d_a11.o _dynamic_source_file/_asterisk/d_a12.o _dynamic_source_file/_asterisk/d_a13.o _dynamic_source_file/_asterisk/d_a14.o _dynamic_source_file/_numeric/d_n1.o _dynamic_source_file/_numeric/d_n2.o _dynamic_source_file/_numeric/d_n3.o _dynamic_source_file/_numeric/d_n4.o _dynamic_source_file/_numeric/d_n5.o _dynamic_source_file/_numeric/d_n6.o _dynamic_source_file/_numeric/d_n7.o _dynamic_source_file/_numeric/d_n8.o _dynamic_source_file/_numeric/d_n9.o _dynamic_source_file/_numeric/d_n10.o _dynamic_source_file/_numeric/d_n11.o _dynamic_source_file/_numeric/d_n12.o _dynamic_source_file/_numeric/d_n13.o _dynamic_source_file/_numeric/d_n14.o _dynamic_source_file/_numeric/d_n15.o _dynamic_source_file/_numeric/d_n16.o _dynamic_source_file/_numeric/d_n17.o _dynamic_source_file/_numeric/d_n18.o _dynamic_source_file/_numeric/d_n19.o _dynamic_source_file/_numeric/d_n20.o _dynamic_source_file/_numeric/d_n21.o _pattern/alpha.o _pattern/asterisk.o _pattern/numeric.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = learning_patterns.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+heart.o: heart.c
+	$(CC) -c heart.c -o heart.o $(CFLAGS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+menu_option.o: menu_option.c
+	$(CC) -c menu_option.c -o menu_option.o $(CFLAGS)
+
+options.o: options.c
+	$(CC) -c options.c -o options.o $(CFLAGS)
+
+_dynamic_source_file/_alpha/d_al1.o: _dynamic_source_file/_alpha/d_al1.c
+	$(CC) -c _dynamic_source_file/_alpha/d_al1.c -o _dynamic_source_file/_alpha/d_al1.o $(CFLAGS)
+
+_dynamic_source_file/_alpha/d_al2.o: _dynamic_source_file/_alpha/d_al2.c
+	$(CC) -c _dynamic_source_file/_alpha/d_al2.c -o _dynamic_source_file/_alpha/d_al2.o $(CFLAGS)
+
+_dynamic_source_file/_alpha/d_al3.o: _dynamic_source_file/_alpha/d_al3.c
+	$(CC) -c _dynamic_source_file/_alpha/d_al3.c -o _dynamic_source_file/_alpha/d_al3.o $(CFLAGS)
+
+_dynamic_source_file/_alpha/d_al4.o: _dynamic_source_file/_alpha/d_al4.c
+	$(CC) -c _dynamic_source_file/_alpha/d_al4.c -o _dynamic_source_file/_alpha/d_al4.o $(CFLAGS)
+
+_dynamic_source_file/_alpha/d_al5.o: _dynamic_source_file/_alpha/d_al5.c
+	$(CC) -c _dynamic_source_file/_alpha/d_al5.c -o _dynamic_source_file/_alpha/d_al5.o $(CFLAGS)
+
+_dynamic_source_file/_alpha/d_al6.o: _dynamic_source_file/_alpha/d_al6.c
+	$(CC) -c _dynamic_source_file/_alpha/d_al6.c -o _dynamic_source_file/_alpha/d_al6.o $(CFLAGS)
+
+_dynamic_source_file/_alpha/d_al7.o: _dynamic_source_file/_alpha/d_al7.c
+	$(CC) -c _dynamic_source_file/_alpha/d_al7.c -o _dynamic_source_file/_alpha/d_al7.o $(CFLAGS)
+
+_dynamic_source_file/_alpha/d_al8.o: _dynamic_source_file/_alpha/d_al8.c
+	$(CC) -c _dynamic_source_file/_alpha/d_al8.c -o _dynamic_source_file/_alpha/d_al8.o $(CFLAGS)
+
+_dynamic_source_file/_alpha/d_al9.o: _dynamic_source_file/_alpha/d_al9.c
+	$(CC) -c _dynamic_source_file/_alpha/d_al9.c -o _dynamic_source_file/_alpha/d_al9.o $(CFLAGS)
+
+_dynamic_source_file/_alpha/d_al10.o: _dynamic_source_file/_alpha/d_al10.c
+	$(CC) -c _dynamic_source_file/_alpha/d_al10.c -o _dynamic_source_file/_alpha/d_al10.o $(CFLAGS)
+
+_dynamic_source_file/_asterisk/d_a1.o: _dynamic_source_file/_asterisk/d_a1.c
+	$(CC) -c _dynamic_source_file/_asterisk/d_a1.c -o _dynamic_source_file/_asterisk/d_a1.o $(CFLAGS)
+
+_dynamic_source_file/_asterisk/d_a2.o: _dynamic_source_file/_asterisk/d_a2.c
+	$(CC) -c _dynamic_source_file/_asterisk/d_a2.c -o _dynamic_source_file/_asterisk/d_a2.o $(CFLAGS)
+
+_dynamic_source_file/_asterisk/d_a3.o: _dynamic_source_file/_asterisk/d_a3.c
+	$(CC) -c _dynamic_source_file/_asterisk/d_a3.c -o _dynamic_source_file/_asterisk/d_a3.o $(CFLAGS)
+
+_dynamic_source_file/_asterisk/d_a4.o: _dynamic_source_file/_asterisk/d_a4.c
+	$(CC) -c _dynamic_source_file/_asterisk/d_a4.c -o _dynamic_source_file/_asterisk/d_a4.o $(CFLAGS)
+
+_dynamic_source_file/_asterisk/d_a5.o: _dynamic_source_file/_asterisk/d_a5.c
+	$(CC) -c _dynamic_source_file/_asterisk/d_a5.c -o _dynamic_source_file/_asterisk/d_a5.o $(CFLAGS)
+
+_dynamic_source_file/_asterisk/d_a6.o: _dynamic_source_file/_asterisk/d_a6.c
+	$(CC) -c _dynamic_source_file/_asterisk/d_a6.c -o _dynamic_source_file/_asterisk/d_a6.o $(CFLAGS)
+
+_dynamic_source_file/_asterisk/d_a7.o: _dynamic_source_file/_asterisk/d_a7.c
+	$(CC) -c _dynamic_source_file/_asterisk/d_a7.c -o _dynamic_source_file/_asterisk/d_a7.o $(CFLAGS)
+
+_dynamic_source_file/_asterisk/d_a8.o: _dynamic_source_file/_asterisk/d_a8.c
+	$(CC) -c _dynamic_source_file/_asterisk/d_a8.c -o _dynamic_source_file/_asterisk/d_a8.o $(CFLAGS)
+
+_dynamic_source_file/_asterisk/d_a9.o: _dynamic_source_file/_asterisk/d_a9.c
+	$(CC) -c _dynamic_source_file/_asterisk/d_a9.c -o _dynamic_source_file/_asterisk/d_a9.o $(CFLAGS)
+
+_dynamic_source_file/_asterisk/d_a10.o: _dynamic_source_file/_asterisk/d_a10.c
+	$(CC) -c _dynamic_source_file/_asterisk/d_a10.c -o _dynamic_source_file/_asterisk/d_a10.o $(CFLAGS)
+
+_dynamic_source_file/_asterisk/d_a11.o: _dynamic_source_file/_asterisk/d_a11.c
+	$(CC) -c _dynamic_source_file/_asterisk/d_a11.c -o _dynamic_source_file/_asterisk/d_a11.o $(CFLAGS)
+
+_dynamic_source_file/_asterisk/d_a12.o: _dynamic_source_file/_asterisk/d_a12.c
+	$(CC) -c _dynamic_source_file/_asterisk/d_a12.c -o _dynamic_source_file/_asterisk/d_a12.o $(CFLAGS)
+
+_dynamic_source_file/_asterisk/d_a13.o: _dynamic_source_file/_asterisk/d_a13.c
+	$(CC) -c _dynamic_source_file/_asterisk/d_a13.c -o _dynamic_source_file/_asterisk/d_a13.o $(CFLAGS)
+
+_dynamic_source_file/_asterisk/d_a14.o: _dynamic_source_file/_asterisk/d_a14.c
+	$(CC) -c _dynamic_source_file/_asterisk/d_a14.c -o _dynamic_source_file/_asterisk/d_a14.o $(CFLAGS)
+
+_dynamic_source_file/_numeric/d_n1.o: _dynamic_source_file/_numeric/d_n1.c
+	$(CC) -c _dynamic_source_file/_numeric/d_n1.c -o _dynamic_source_file/_numeric/d_n1.o $(CFLAGS)
+
+_dynamic_source_file/_numeric/d_n2.o: _dynamic_source_file/_numeric/d_n2.c
+	$(CC) -c _dynamic_source_file/_numeric/d_n2.c -o _dynamic_source_file/_numeric/d_n2.o $(CFLAGS)
+
+_dynamic_source_file/_numeric/d_n3.o: _dynamic_source_file/_numeric/d_n3.c
+	$(CC) -c _dynamic_source_file/_numeric/d_n3.c -o _dynamic_source_file/_numeric/d_n3.o $(CFLAGS)
+
+_dynamic_source_file/_numeric/d_n4.o: _dynamic_source_file/_numeric/d_n4.c
+	$(CC) -c _dynamic_source_file/_numeric/d_n4.c -o _dynamic_source_file/_numeric/d_n4.o $(CFLAGS)
+
+_dynamic_source_file/_numeric/d_n5.o: _dynamic_source_file/_numeric/d_n5.c
+	$(CC) -c _dynamic_source_file/_numeric/d_n5.c -o _dynamic_source_file/_numeric/d_n5.o $(CFLAGS)
+
+_dynamic_source_file/_numeric/d_n6.o: _dynamic_source_file/_numeric/d_n6.c
+	$(CC) -c _dynamic_source_file/_numeric/d_n6.c -o _dynamic_source_file/_numeric/d_n6.o $(CFLAGS)
+
+_dynamic_source_file/_numeric/d_n7.o: _dynamic_source_file/_numeric/d_n7.c
+	$(CC) -c _dynamic_source_file/_numeric/d_n7.c -o _dynamic_source_file/_numeric/d_n7.o $(CFLAGS)
+
+_dynamic_source_file/_numeric/d_n8.o: _dynamic_source_file/_numeric/d_n8.c
+	$(CC) -c _dynamic_source_file/_numeric/d_n8.c -o _dynamic_source_file/_numeric/d_n8.o $(CFLAGS)
+
+_dynamic_source_file/_numeric/d_n9.o: _dynamic_source_file/_numeric/d_n9.c
+	$(CC) -c _dynamic_source_file/_numeric/d_n9.c -o _dynamic_source_file/_numeric/d_n9.o $(CFLAGS)
+
+_dynamic_source_file/_numeric/d_n10.o: _dynamic_source_file/_numeric/d_n10.c
+	$(CC) -c _dynamic_source_file/_numeric/d_n10.c -o _dynamic_source_file/_numeric/d_n10.o $(CFLAGS)
+
+_dynamic_source_file/_numeric/d_n11.o: _dynamic_source_file/_numeric/d_n11.c
+	$(CC) -c _dynamic_source_file/_numeric/d_n11.c -o _dynamic_source_file/_numeric/d_n11.o $(CFLAGS)
+
+_dynamic_source_file/_numeric/d_n12.o: _dynamic_source_file/_numeric/d_n12.c
+	$(CC) -c _dynamic_source_file/_numeric/d_n12.c -o _dynamic_source_file/_numeric/d_n12.o $(CFLAGS)
+
+_dynamic_source_file/_numeric/d_n13.o: _dynamic_source_file/_numeric/d_n13.c
+	$(CC) -c _dynamic_source_file/_numeric/d_n13.c -o _dynamic_source_file/_numeric/d_n13.o $(CFLAGS)
+
+_dynamic_source_file/_numeric/d_n14.o: _dynamic_source_file/_numeric/d_n14.c
+	$(CC) -c _dynamic_source_file/_numeric/d_n14.c -o _dynamic_source_file/_numeric/d_n14.o $(CFLAGS)
+
+_dynamic_source_file/_numeric/d_n15.o: _dynamic_source_file/_numeric/d_n15.c
+	$(CC) -c _dynamic_source_file/_numeric/d_n15.c -o _dynamic_source_file/_numeric/d_n15.o $(CFLAGS)
+
+_dynamic_source_file/_numeric/d_n16.o: _dynamic_source_file/_numeric/d_n16.c
+	$(CC) -c _dynamic_source_file/_numeric/d_n16.c -o _dynamic_source_file/_numeric/d_n16.o $(CFLAGS)
+
+_dynamic_source_file/_numeric/d_n17.o: _dynamic_source_file/_numeric/d_n17.c
+	$(CC) -c _dynamic_source_file/_numeric/d_n17.c -o _dynamic_source_file/_numeric/d_n17.o $(CFLAGS)
+
+_dynamic_source_file/_numeric/d_n18.o: _dynamic_source_file/_numeric/d_n18.c
+	$(CC) -c _dynamic_source_file/_numeric/d_n18.c -o _dynamic_source_file/_numeric/d_n18.o $(CFLAGS)
+
+_dynamic_source_file/_numeric/d_n19.o: _dynamic_source_file/_numeric/d_n19.c
+	$(CC) -c _dynamic_source_file/_numeric/d_n19.c -o _dynamic_source_file/_numeric/d_n19.o $(CFLAGS)
+
+_dynamic_source_file/_numeric/d_n20.o: _dynamic_source_file/_numeric/d_n20.c
+	$(CC) -c _dynamic_source_file/_numeric/d_n20.c -o _dynamic_source_file/_numeric/d_n20.o $(CFLAGS)
+
+_dynamic_source_file/_numeric/d_n21.o: _dynamic_source_file/_numeric/d_n21.c
+	$(CC) -c _dynamic_source_file/_numeric/d_n21.c -o _dynamic_source_file/_numeric/d_n21.o $(CFLAGS)
+
+_pattern/alpha.o: _pattern/alpha.c
+	$(CC) -c _pattern/alpha.c -o _pattern/alpha.o $(CFLAGS)
+
+_pattern/asterisk.o: _pattern/asterisk.c
+	$(CC) -c _pattern/asterisk.c -o _pattern/asterisk.o $(CFLAGS)
+
+_pattern/numeric.o: _pattern/numeric.c
+	$(CC) -c _pattern/numeric.c -o _pattern/numeric.o $(CFLAGS)

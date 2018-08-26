@@ -1,0 +1,11 @@
+****** HINT FILE FOR al8 ******
+
+## DIVIDE THE PATTERN IN 3 TRIANGLE (LEFT, SPACE, RIGHT)
+
+> Run an outer loop for the count of row from n to 0.
+> Run 3 internal loop , 1st for left triangle , 2nd for space & 3rd for right triangle.
+> Print character.(look code for better understanding) 
+
+NOTE: You can also try other approach than this.
+
+

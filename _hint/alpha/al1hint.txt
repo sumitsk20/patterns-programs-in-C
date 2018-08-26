@@ -1,0 +1,9 @@
+****** HINT FILE FOR al1 ******
+
+> Run an outer loop for the count of row from n to 1.
+> Run an internal loop for column from count of row to n.
+> Print character.(look code for better understanding) 
+
+NOTE: You can also try other approach than this.
+
+

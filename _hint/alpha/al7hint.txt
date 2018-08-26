@@ -1,0 +1,9 @@
+****** HINT FILE FOR al7 ******
+
+> Run an outer loop for the row from 1 to n.
+> Run an internal loop for column from 1 to n.
+> Print character.(look code for better understanding) 
+
+NOTE: You can also try other approach than this.
+
+

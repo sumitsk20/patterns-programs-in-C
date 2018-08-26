@@ -1,0 +1,17 @@
+****** HINT FILE FOR a6 ******
+
+> Divide the pattern in two part upper & lower.
+
+## FOR UPPER TRIANGLE
+> Run an outer loop for the count of row.
+> Run an inner loop for the count of column.
+> Figure out combination of row & column where * is to be printed. (look code for better understanding)
+> Use if-else condition. 
+
+## FOR LOWER TRIANGLE
+> Run an outer loop for the count of row starting from n+1, where n is count of row in upper triangle.
+> Run an inner loop for the count of column.
+> Figure out combination of row & column where * is to be printed. (look code for better understanding)
+> Use if-else condition. 
+
+NOTE: You can also try other approach than this.

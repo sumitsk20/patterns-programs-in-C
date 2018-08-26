@@ -1,0 +1,23 @@
+****** HINT FILE FOR n20 ******
+
+> Divide the pattern in three part SPACE triangle ,LEFT & RIGHT triangle.
+> Run an outer loop for the count of row from n to 1.
+
+## FOR SPACE TRIANGLE
+
+> Run an inner loop from 1 to Count of row.
+> Print ' '.
+
+## FOR LEFT TRIANGLE
+
+> Run an inner loop from Count of row to n.
+> Print digit.
+
+## FOR RIGHT TRIANGLE
+
+> Run an inner loop from n to Count of row.
+> Print digit.
+
+ (look code for better understanding)
+
+NOTE: You can also try other approach than this.

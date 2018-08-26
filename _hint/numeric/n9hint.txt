@@ -1,0 +1,9 @@
+****** HINT FILE FOR n9 ******
+
+> Intitialize an count to 1.
+> Run an outer loop for the count of row.
+> Run an internal loop from 3 to 1.
+> Use if-else condition & print count.
+ (look code for better understanding)
+
+NOTE: You can also try other approach than this.

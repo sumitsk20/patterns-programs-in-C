@@ -1,0 +1,9 @@
+****** HINT FILE FOR n2 ******
+
+> Run an outer loop for the count of row from 1 to n.
+> Initialize a counter to number of rows.
+> Run an internal loop for count of column from n to 1.
+> Print counter when count of column is less than or equal to count of row.(look code for better understanding) 
+
+NOTE: You can also try other approach than this.
+

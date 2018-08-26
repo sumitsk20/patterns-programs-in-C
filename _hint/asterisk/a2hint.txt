@@ -1,0 +1,11 @@
+****** HINT FILE FOR a2 ******
+
+> Divide the pattern in two part i.e upper part(numeric) & lower part(asterisk).
+> Run an outer loop for the count of row.
+> Run two internal loops seperately for numeric & asterisk part.
+> Loop for numeric will run till number of row - count of row. 
+> Loop for asterisk will run till count of row.. 
+
+NOTE: You can also try other approach than this.
+
+

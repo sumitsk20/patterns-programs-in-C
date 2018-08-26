@@ -1,0 +1,18 @@
+****** HINT FILE FOR n15 ******
+
+> Divide the pattern in two part LEFT & RIGHT.
+> Run an outer loop for the count of row from 1 to n.
+
+## FOR LEFT PART
+
+> Run an inner loop for column from 1 to n.
+> Use if else to print ' ' & digits.
+
+## FOR RIGHT PART
+
+> Run an inner loop for column from n to 1.
+> Use if else to print ' ' & digits.
+
+ (look code for better understanding)
+
+NOTE: You can also try other approach than this.

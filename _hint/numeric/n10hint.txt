@@ -1,0 +1,21 @@
+****** HINT FILE FOR n10 ******
+
+> Divide the pattern in two major part upper & lower.
+> Further divide each of two part in LEFT & RIGHT for ' ' & digits.
+> Initialize a counter
+
+## FOR UPPER TRIANGLE (while counter < = count of row)
+> Run an outer loop for the count of row from n to 1.
+> Run two inner loop,1st for printing ' ' and 2nd for printing Count.
+> Use if else.
+> Increment counter
+ (look code for better understanding)
+
+## FOR LOWER TRIANGLE
+> Run an outer loop for the count of row from n to 1.
+> Run two inner loop,1st for printing ' ' and 2nd for printing Count.
+> Use if else.
+> Decrement Counter.
+ (look code for better understanding)
+
+NOTE: You can also try other approach than this.

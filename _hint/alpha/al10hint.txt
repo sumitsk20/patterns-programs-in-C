@@ -1,0 +1,11 @@
+****** HINT FILE FOR al10 ******
+
+## DIVIDE THE PATTERN IN TWO TRIANGLE (Upper for Space & Lower for Character)
+
+> Run an outer loop for the count of row from 1 to n.
+> Run two internal loop for Space & Character triangle seperately.
+> Print character.(look code for better understanding) 
+
+NOTE: You can also try other approach than this.
+
+

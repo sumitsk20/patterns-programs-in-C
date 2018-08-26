@@ -1,0 +1,11 @@
+****** HINT FILE FOR n8 ******
+
+> Divide the pattern in two part LEFT & RIGHT.
+
+> Run an outer loop for the count of row.
+> Run two inner loop,1st for printing 'Count' or LEFT Triangle and 2nd for printing '*' or RIGHT Triangle.
+> Loop of count will run from n - count of row to 1.
+> Loop of * will run from count of row to 1.
+ (look code for better understanding)
+
+NOTE: You can also try other approach than this.

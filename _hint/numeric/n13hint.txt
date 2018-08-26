@@ -1,0 +1,21 @@
+****** HINT FILE FOR n13 ******
+
+> Divide the pattern in two part LEFT & RIGHT.
+> Run an outer loop for the count of row from 1 to n.
+> Initialize a couner c to 1 & another counter k to n.
+
+## FOR LEFT TRIANGLE
+
+> Run an inner loop for space from k to count of row.
+> Print space.
+> Decrement Counter.
+
+## FOR RIGHT TRIANGLE
+
+> Run an inner loop from 1 to count of row.
+> Print counter c.
+> Intialize c to a valid expression.
+
+ (look code for better understanding)
+
+NOTE: You can also try other approach than this.

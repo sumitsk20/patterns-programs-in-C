@@ -1,0 +1,9 @@
+****** HINT FILE FOR n7 ******
+
+> Divide the pattern in two part LEFT & RIGHT.
+
+> Run an outer loop for the count of row.
+> Run two inner loop,1st for printing ' ' or LEFT Triangle and 2nd for printing 'Count' or RIGHT Triangle.
+ (look code for better understanding)
+
+NOTE: You can also try other approach than this.

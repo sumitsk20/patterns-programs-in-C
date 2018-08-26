@@ -1,0 +1,8 @@
+****** HINT FILE FOR n3 ******
+
+> Run an outer loop for the count of row from 1 to n.
+> Initialize a counter to 1.
+> Run an internal loop for count of column from 1 to count of row.
+> Print counter & increment.(look code for better understanding) 
+
+NOTE: You can also try other approach than this.

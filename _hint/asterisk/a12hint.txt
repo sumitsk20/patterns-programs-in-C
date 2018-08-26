@@ -1,0 +1,10 @@
+****** HINT FILE FOR a12 ******
+
+> Run an outer loop for the count of row.
+> Run an inner loop for the count of column.
+> Intitialize two seperate counter with value of row & column.
+> Figure out combination of row & column where * is to be printed. (look code for better understanding)
+> print '*' when counter of column is equal to count of column else print ' '.
+> Use if-else condition & abs() function. 
+
+NOTE: You can also try other approach than this.

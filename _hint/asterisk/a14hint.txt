@@ -1,0 +1,14 @@
+****** HINT FILE FOR a14 ******
+
+>> LOOK THE PATTERN AS MULTIPLE CROSS PRINTED REPEATEDLY <<
+
+## FOR PRINTING SINGLE CROSS
+
+> Run an outer loop for the count of row.
+> Run an inner loop for the count of column.
+> Figure out combination of row & column where * is to be printed. (look code for better understanding)
+> Use if-else condition to print '*' and ' ' at right combination of row and colum. 
+
+## REPEAT THE CROSS USING WHILE LOOP n Times.( Consider n as number of nodes in DNA.)
+
+NOTE: You can also try other approach than this.
